@@ -44,7 +44,7 @@
 "ALL","SMC","0xEC03",,1,"RUNTIME","PLL_Clk_Maybe() failed, likely clock not stable"
 "ALL","SMC","0xEC04",,1,"RUNTIME_EXTPOST",
 "ALL","SMC","0xEC05",,1,"RUNTIME_05",
-"ALL","SMC","0xEC06",,1,"RUNTIME_06",
+"ALL","SMC","0xEC06",,1,"RUNTIME_06","Possible communication problem between APU and Rams. Check VTT, VREFDQ and ZQ's power supplies"
 "ALL","SMC","0xEC07",,1,"RUNTIME_07",
 "ALL","SMC","0xEC09",,1,"RUNTIME_GET_SBSystemSubmode","Final PCIe init or handshake failure"
 "ALL","SMC","0xEC0B",,1,"RUNTIME_I2C_CLEARMSG",
