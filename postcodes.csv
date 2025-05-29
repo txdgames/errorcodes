@@ -99,7 +99,7 @@
 "XOS","SMC","0xEC03",,1,"RUNTIME","PLL_Clk_Maybe() failed, likely clock not stable"
 "XOS","SMC","0xEC04",,1,"RUNTIME_EXTPOST","General Error - Often byproduct, low priority"
 "XOS","SMC","0xEC05",,1,"RUNTIME_05","General Error - Often byproduct, low priority"
-"XOS","SMC","0xEC06",,1,"RUNTIME_06","General Error - Often byproduct, low priority"
+"XOS","SMC","0xEC06",,1,"MEMORY","General memory error (MEM <-> APU), check V_Memio / VTT A-D resistances&voltages, check resistors around rams, replace rams (ZQ method?), reball apu."
 "XOS","SMC","0xEC07",,1,"RUNTIME_07",
 "XOS","SMC","0xEC09",,1,"RUNTIME_GET_SBSystemSubmode","Final PCIe init or handshake failure"
 "XOS","SMC","0xEC0B",,1,"RUNTIME_I2C_CLEARMSG","0xec0b - I2C bus failed to clear. Pi pico hickup, check all I2C devices (U5F3, U9C2), southbridge."
